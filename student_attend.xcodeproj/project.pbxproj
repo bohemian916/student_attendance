@@ -9,11 +9,23 @@
 /* Begin PBXBuildFile section */
 		95687B911BCA3670000EB693 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 95687B901BCA3670000EB693 /* main.m */; };
 		95687B941BCA3670000EB693 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 95687B931BCA3670000EB693 /* AppDelegate.m */; };
-		95687B971BCA3670000EB693 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95687B961BCA3670000EB693 /* ViewController.m */; };
+		95687B971BCA3670000EB693 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 95687B961BCA3670000EB693 /* ViewController.mm */; };
 		95687B9A1BCA3670000EB693 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95687B981BCA3670000EB693 /* Main.storyboard */; };
 		95687B9C1BCA3670000EB693 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95687B9B1BCA3670000EB693 /* Images.xcassets */; };
 		95687B9F1BCA3670000EB693 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 95687B9D1BCA3670000EB693 /* LaunchScreen.xib */; };
 		95687BAB1BCA3670000EB693 /* student_attendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 95687BAA1BCA3670000EB693 /* student_attendTests.m */; };
+		95687BB51BCA3735000EB693 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BB41BCA3735000EB693 /* opencv2.framework */; };
+		95687BB71BCA3B98000EB693 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BB61BCA3B98000EB693 /* Accelerate.framework */; };
+		95687BB91BCA3BA3000EB693 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BB81BCA3BA3000EB693 /* AssetsLibrary.framework */; };
+		95687BBB1BCA3BAE000EB693 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BBA1BCA3BAE000EB693 /* AVFoundation.framework */; };
+		95687BBD1BCA3BBB000EB693 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BBC1BCA3BBB000EB693 /* CoreGraphics.framework */; };
+		95687BBF1BCA3BC7000EB693 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BBE1BCA3BC7000EB693 /* CoreImage.framework */; };
+		95687BC11BCA3BD3000EB693 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BC01BCA3BD3000EB693 /* CoreMedia.framework */; };
+		95687BC31BCA3BDE000EB693 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BC21BCA3BDE000EB693 /* CoreVideo.framework */; };
+		95687BC51BCA3BE8000EB693 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BC41BCA3BE8000EB693 /* QuartzCore.framework */; };
+		95687BC71BCA3BF5000EB693 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95687BC61BCA3BF5000EB693 /* Foundation.framework */; };
+		95687BC91BCA441C000EB693 /* haarcascade_frontalface_alt2.xml in Resources */ = {isa = PBXBuildFile; fileRef = 95687BC81BCA441C000EB693 /* haarcascade_frontalface_alt2.xml */; };
+		95687BCC1BCA685E000EB693 /* settingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 95687BCB1BCA685E000EB693 /* settingViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,13 +45,26 @@
 		95687B921BCA3670000EB693 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		95687B931BCA3670000EB693 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		95687B951BCA3670000EB693 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		95687B961BCA3670000EB693 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		95687B961BCA3670000EB693 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		95687B991BCA3670000EB693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		95687B9B1BCA3670000EB693 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		95687B9E1BCA3670000EB693 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		95687BA41BCA3670000EB693 /* student_attendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = student_attendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		95687BA91BCA3670000EB693 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95687BAA1BCA3670000EB693 /* student_attendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = student_attendTests.m; sourceTree = "<group>"; };
+		95687BB41BCA3735000EB693 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		95687BB61BCA3B98000EB693 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		95687BB81BCA3BA3000EB693 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		95687BBA1BCA3BAE000EB693 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		95687BBC1BCA3BBB000EB693 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		95687BBE1BCA3BC7000EB693 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		95687BC01BCA3BD3000EB693 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		95687BC21BCA3BDE000EB693 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		95687BC41BCA3BE8000EB693 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		95687BC61BCA3BF5000EB693 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		95687BC81BCA441C000EB693 /* haarcascade_frontalface_alt2.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = haarcascade_frontalface_alt2.xml; sourceTree = "<group>"; };
+		95687BCA1BCA685E000EB693 /* settingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = settingViewController.h; sourceTree = "<group>"; };
+		95687BCB1BCA685E000EB693 /* settingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = settingViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +72,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95687BC71BCA3BF5000EB693 /* Foundation.framework in Frameworks */,
+				95687BC51BCA3BE8000EB693 /* QuartzCore.framework in Frameworks */,
+				95687BC31BCA3BDE000EB693 /* CoreVideo.framework in Frameworks */,
+				95687BC11BCA3BD3000EB693 /* CoreMedia.framework in Frameworks */,
+				95687BBF1BCA3BC7000EB693 /* CoreImage.framework in Frameworks */,
+				95687BBD1BCA3BBB000EB693 /* CoreGraphics.framework in Frameworks */,
+				95687BBB1BCA3BAE000EB693 /* AVFoundation.framework in Frameworks */,
+				95687BB91BCA3BA3000EB693 /* AssetsLibrary.framework in Frameworks */,
+				95687BB71BCA3B98000EB693 /* Accelerate.framework in Frameworks */,
+				95687BB51BCA3735000EB693 /* opencv2.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +98,17 @@
 		95687B821BCA3670000EB693 = {
 			isa = PBXGroup;
 			children = (
+				95687BC81BCA441C000EB693 /* haarcascade_frontalface_alt2.xml */,
+				95687BC61BCA3BF5000EB693 /* Foundation.framework */,
+				95687BC41BCA3BE8000EB693 /* QuartzCore.framework */,
+				95687BC21BCA3BDE000EB693 /* CoreVideo.framework */,
+				95687BC01BCA3BD3000EB693 /* CoreMedia.framework */,
+				95687BBE1BCA3BC7000EB693 /* CoreImage.framework */,
+				95687BBC1BCA3BBB000EB693 /* CoreGraphics.framework */,
+				95687BBA1BCA3BAE000EB693 /* AVFoundation.framework */,
+				95687BB81BCA3BA3000EB693 /* AssetsLibrary.framework */,
+				95687BB61BCA3B98000EB693 /* Accelerate.framework */,
+				95687BB41BCA3735000EB693 /* opencv2.framework */,
 				95687B8D1BCA3670000EB693 /* student_attend */,
 				95687BA71BCA3670000EB693 /* student_attendTests */,
 				95687B8C1BCA3670000EB693 /* Products */,
@@ -84,7 +130,9 @@
 				95687B921BCA3670000EB693 /* AppDelegate.h */,
 				95687B931BCA3670000EB693 /* AppDelegate.m */,
 				95687B951BCA3670000EB693 /* ViewController.h */,
-				95687B961BCA3670000EB693 /* ViewController.m */,
+				95687B961BCA3670000EB693 /* ViewController.mm */,
+				95687BCA1BCA685E000EB693 /* settingViewController.h */,
+				95687BCB1BCA685E000EB693 /* settingViewController.m */,
 				95687B981BCA3670000EB693 /* Main.storyboard */,
 				95687B9B1BCA3670000EB693 /* Images.xcassets */,
 				95687B9D1BCA3670000EB693 /* LaunchScreen.xib */,
@@ -168,6 +216,7 @@
 				TargetAttributes = {
 					95687B8A1BCA3670000EB693 = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 9WU5UT47U9;
 					};
 					95687BA31BCA3670000EB693 = {
 						CreatedOnToolsVersion = 6.2;
@@ -201,6 +250,7 @@
 			files = (
 				95687B9A1BCA3670000EB693 /* Main.storyboard in Resources */,
 				95687B9F1BCA3670000EB693 /* LaunchScreen.xib in Resources */,
+				95687BC91BCA441C000EB693 /* haarcascade_frontalface_alt2.xml in Resources */,
 				95687B9C1BCA3670000EB693 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -219,9 +269,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95687B971BCA3670000EB693 /* ViewController.m in Sources */,
+				95687B971BCA3670000EB693 /* ViewController.mm in Sources */,
 				95687B941BCA3670000EB693 /* AppDelegate.m in Sources */,
 				95687B911BCA3670000EB693 /* main.m in Sources */,
+				95687BCC1BCA685E000EB693 /* settingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -343,6 +394,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = student_attend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -353,6 +408,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = student_attend/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
